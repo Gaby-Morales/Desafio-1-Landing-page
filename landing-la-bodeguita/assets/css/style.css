@@ -1,0 +1,49 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.header {
+  height: 5em;
+  padding: 0.67em;
+  font-size: 2em;
+  background-image: url("../imgs/Blanco_y_negro_minimalista_monograma_tipografico_logotipo___3_-removebg-preview.png");
+  background-size: contain;
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-color: #e5e5e3;
+}
+
+.header h1 {
+  margin: 0;
+  font-weight: 400;
+}
+
+.products {
+  width: 80%;
+  margin: auto;
+}
+
+.products td {
+  width: 50%;
+  padding: 2em;
+}
+
+.products img {
+  width: 100%;
+  max-width: 18.75em;
+  border: solid 1px #ddd;
+}
+
+.footer {
+  height: 3em;
+  line-height: 3em;
+  background-color: rgb(158, 168, 220);
+  text-align: center;
+  font-weight: 900;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
